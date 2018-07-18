@@ -1,7 +1,7 @@
 ARG DOCKER_VERSION=latest
 FROM docker:${DOCKER_VERSION}
 
-ARG COMPOSE_VERSION=latest
+ARG COMPOSE_VERSION=1.22.0
 
 RUN apk update \
       && apk add --no-cache py-pip
